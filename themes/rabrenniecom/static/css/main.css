@@ -3,13 +3,18 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 h1 {
     font-weight: normal;
 }
 
+/* Intro */
 .intro {
     box-sizing: border-box;
-    height: 100vh;
     padding: 5rem;
 }
 
@@ -24,4 +29,47 @@ h1 {
 .intro .intro_content .bold {
     font-weight: bold;
     color: #37b24d;
+}
+
+/* Skills */
+
+.skills {
+    padding: 5rem;
+}
+
+.skills .skills_header{
+    font-size: 3rem;
+}
+
+.skills_content ul {
+    display: inline-block;
+    list-style: none;
+    vertical-align: top;
+    -webkit-padding-start: 0;
+}
+
+.skills_content ul:not(:last-child) {
+    margin-right: 20%;
+}
+
+/* Skills */
+
+.experience {
+    padding: 5rem;
+}
+
+.experience .position {
+    width: 80%;
+    display: table;
+    margin-top: 2rem;
+}
+
+.experience .position_company {
+    font-weight: bold;
+}
+
+.experience .position_date {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: right;
 }
