@@ -1,0 +1,27 @@
+body {
+    color: #495057;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+}
+
+.intro {
+    box-sizing: border-box;
+    height: 100vh;
+    padding: 5rem;
+}
+
+.intro .intro_header {
+    font-size: 6rem;
+}
+
+.intro .intro_content {
+    font-size: 2rem;
+}
+
+.intro .intro_content .bold {
+    font-weight: bold;
+    color: #37b24d;
+}
